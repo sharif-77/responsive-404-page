@@ -10,8 +10,8 @@
 }
 .items-wrapper{
     display: flex;
-    gap: 10px;
-    justify-content: space-evenly;
+    gap: 50px;
+    justify-content: space-between;
     align-items: center;
 }
 .item-1 , .item-2{
@@ -43,6 +43,8 @@
     .items-wrapper{
         flex-direction: column;
     }
-    
+    .item-1 , .item-2{
+        width: 100%;
+    }
     
 }
