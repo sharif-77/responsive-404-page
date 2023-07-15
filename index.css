@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Scarecrow{
+    width: 70vw;
+    margin: auto;
+    margin-top: 5vh;
+}
+.items-wrapper{
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.item-1 , .item-2{
+    width: 50%;
+}
+.item-1>img{
+    width: 100%;
+}
+.item-2{
+    line-height: 1.5;
+}
+.item-2>h1{
+    font-size: 4vw;
+}
+.item-2>p{
+    font-size: 2vw;
+
+}
+.items-two-btn{
+    margin-top: 30px;
+    display: inline-block;
+    padding: 1vw 2vw ;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+
+}
+@media screen and (max-width:576px){
+    .items-wrapper{
+        flex-direction: column;
+    }
+    
+    
+}
