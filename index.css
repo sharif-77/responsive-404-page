@@ -46,5 +46,9 @@
     .item-1 , .item-2{
         width: 100%;
     }
+    .item-2>p{
+        font-size: 4vw;
+    
+    }
     
 }
